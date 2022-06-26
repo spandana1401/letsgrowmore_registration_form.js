@@ -1,0 +1,124 @@
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+    }
+
+    html {
+        background-image: linear-gradient(to right, #ecece5, #dbf5a0);
+        height: 100%;
+    }
+
+    .box {
+        width: 46%;
+
+        text-align: center;
+        background: linear-gradient(#e8f3e7 0%, #e1e2b1 90%);
+        height: 684px;
+        margin-top: 80px;
+    }
+
+    .box h1 {
+        font-size: 40px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: left;
+
+    }
+
+    nav {
+        background: linear-gradient(#edeeef 0%, #6fb4c5 100%);
+        text-align: center;
+        font-size: 200%;
+        background-color: rgb(198, 230, 135);
+    }
+
+    .Form {
+        margin: 20px;
+        margin-left: 10%;
+        margin-top: 5%;
+        height: 500px;
+        width: 86%;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    #namediv {
+        margin-top: 20px;
+    }
+
+    input[type="text"] {
+        display: inline-block;
+        height: 32px;
+        width: 250px;
+        text-align: center;
+        font-size: 70%;
+        border-radius: 5px;
+        margin-left: 20px;
+    }
+
+    .input {
+        font-size: 30px;
+        color: #000000;
+        font-weight: 700;
+        font-family: sans-serif;
+        margin-left: -180px;
+        margin-top: 20px;
+    }
+
+    .inputF {
+        font-size: 30px;
+        color: #000000;
+        font-weight: 700;
+        font-family: sans-serif;
+        margin-left: -50px;
+        margin-top: 25px;
+    }
+
+    input[type=radio] {
+        border: 0px;
+        width: 4%;
+        height: 1em;
+        margin-left: 24px;
+    }
+
+    #entry {
+        width: 150px;
+        height: 40px;
+        font-size: 23px;
+        font-family: 'Times New Roman', Times, serif;
+        background-color: rgb(135, 161, 184);
+        color: rgb(31, 7, 7);
+        box-sizing: 0 2px 2px 0 rgba(0, 0, 0, 0.5);
+        align-self: center;
+        margin-top: 180px;
+        border-radius: 10px;
+
+    }
+
+    #entry:hover {
+        background-color: rgb(96, 175, 218);
+        color: rgb(14, 0, 59);
+
+    }
+
+    .table {
+        position: fixed;
+        top: 7%;
+        right: 1%;
+        width: 52%;
+        margin-top: 230px;
+        margin-left: 50%;
+        padding: 4px;
+        float: center;
+        text-align: center;
+        background: rgb(147, 231, 163);
+        color: rgb(29, 24, 24);
+    }
+
+    table,
+    th,
+    td {
+        width: 100%;
+        border: 2px solid white;
+        padding: 10px;
+    }

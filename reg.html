@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Registration Form</title>
+</head>
+
+<body>
+    <nav>
+        <h1 style="color: white;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Student
+            Registration
+            Form</h1>
+    </nav>
+    <div class="box">
+        <h1 style="font-family:san-serif ; color:whitesmoke"></h1>
+        <div class="Form">
+            <div id="namediv" class="input">
+                Name: <input autocomplete="none" id="name" type="text" placeholder="Enter name" />
+            </div>
+            <div id="field" class="input">
+                Age: <input autocomplete="none" id="age" type="text" placeholder="Enter age" />
+            </div>
+            <div id="field" class="input">
+                Email: <input autocomplete="none" id="email" type="text" placeholder="Enter email" />
+            </div>
+            <div id="field" class="input">
+                State: <input autocomplete="none" id="city" type="text" placeholder="Enter State" />
+            </div>
+            <div id="field" class="input">
+                Phone: <input autocomplete="cc-number" id="phone" type="text" placeholder="Enter Phone number" />
+            </div>
+            <div id="field" class="inputF">
+                Gender: <input type="radio" id="M" name="gender" value="male">Male
+                <input type="radio" id="F" name="gender" value="female">Female
+                <input type="radio" id="O" name="gender" value="other">Other
+            </div>
+
+            <button id="entry">Submit</button>
+
+        </div>
+    </div>
+    <div class="table">
+        <table id="display">
+            <h1>Enrolled Details</h1>
+            <tr>
+                <th>Name</th>
+                <th>Gender</th>
+                <th>Age</th>
+                <th>Email</th>
+                <th>State</th>
+                <th>Phone</th>
+            </tr>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
